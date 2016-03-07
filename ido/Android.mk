@@ -88,7 +88,7 @@ LOCAL_MODULE_OWNER  := qcom
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MODULE_TAGS   := optional
 LOCAL_CERTIFICATE   := platform
-LOCAL_SRC_FILES     := proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
+LOCAL_SRC_FILES     := proprietary/app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
